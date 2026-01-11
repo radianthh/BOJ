@@ -13,7 +13,6 @@ int main() {
     string s;
     cin >> s;
 
-
     long long hash = 0;
     for (int i = 0; i < L; i++) {
         int h = s[i] - 96;
