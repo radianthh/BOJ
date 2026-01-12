@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int a[1000001][14];
+int a[1000][14];
 int main() {
     
     for (int i = 0; i < 1000; i++) {
