@@ -12,7 +12,6 @@ unsigned long long fibonacci(int n) {
     return fib[n];
 }
 
-
 int main() {
 
     ios::sync_with_stdio(false);
