@@ -12,7 +12,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int x, n, m;
+    int n, m;
     cin >> n >> m;
 
     queue<pair<int, int>> Q;
@@ -20,8 +20,7 @@ int main() {
     int board[502][502];
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
-            cin >> x;
-            board[i][j] = x;
+            cin >> board[i][j];
         }
     }
 
