@@ -51,8 +51,8 @@ int main() {
     }    
 
     int mx = 0;
-    for (int c = 0; c < m; c++) {
-        for (int d = 0; d < n; d++) {
+    for (int c = 0; c < n; c++) {
+        for (int d = 0; d < m; d++) {
             if(board[c][d] == 0) {
                 cout << -1 << "\n";
                 return 0;
