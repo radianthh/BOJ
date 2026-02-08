@@ -9,7 +9,7 @@ void func1(int n) {
 }
 
 int func2(int n) {
-    if(n == 0) return;
+    if(n == 0) return 0;
     return n + func2(n - 1);
 }
 
@@ -21,6 +21,7 @@ long long func3(long long a, long long b, long long m) {
 
 int main() {
 
+    func1(10);
 
 
     return 0;
