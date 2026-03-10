@@ -24,9 +24,9 @@ int main() {
     }
     sort(v.begin(), v.end(), cmp);
 
-    int t = v[0].second;
-    int cnt = 1;
-    for (int i = 1; i < N; i++) {
+    int t = 0;
+    int cnt = 0;
+    for (int i = 0; i < N; i++) {
         if(v[i].first >= t) {
             t = v[i].second;
             cnt++;
